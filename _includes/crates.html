@@ -1,0 +1,9 @@
+<section>
+    <h2>Crates</h2>
+
+    {% for crate in site.data.crates %}
+    <ul>
+        <li><a href="{{crate.repo | relative_url}}">{{crate.name}}</a></li>
+    </ul>
+    {% endfor %}
+</section>

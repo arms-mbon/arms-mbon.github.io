@@ -1,0 +1,9 @@
+- name: Ocean Sampling Day 2014
+  description: these data were collected and managed by MicroB3 and are published on [PANGAEA](https://doi.pangaea.de/10.1594/PANGAEA.854419
+  repo: /OSD2014/
+- name: Ocean Sampling Day 2018
+  description: these data were collected and managed by ASSEMBLE Plus and are managed here
+  repo: /OSD2018/
+- name: Ocean Sampling Day 2019
+  description: these data were collected and managed by ASSEMBLE Plus and are managed here
+  repo: /OSD2019/

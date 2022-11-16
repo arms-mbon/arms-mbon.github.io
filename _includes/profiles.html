@@ -1,0 +1,9 @@
+<section>
+    <h2>Profiles</h2>
+
+    {% for profile in site.data.profiles %}
+    <ul>
+        <li><a href="{{profile.url | relative_url}}">{{profile.name}}</a></li>
+    </ul>
+    {% endfor %}
+</section>
