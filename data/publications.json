@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Something Something interesting",
+        "text": "Text about something interesting here A",
+        "img": "/img/publications/1.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+    },
+    {
+        "title": "The cat in the hat",
+        "text": "The cat in the hat sat on the mat. One hopes he didn't leave a fat cat track in the form of a shattered mat.",
+        "img": "/img/publications/2.jpeg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+    },
+    {
+        "title": "The bone in the bone",
+        "text": "Spooky scary skeletons send shivers down your spine. Shrieking skulls will shock your soul, seal your doom tonight.",
+        "img": "/img/publications/3.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+    },
+    {
+        "title": "The eel in the seal caught the whale in the mail",
+        "text": "The eel in the seal caught the whale in the mail. The whale in the mail was a very big whale.",
+        "img": "/img/publications/4.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+      "img": "img/VLIZ_LOGO.png",
+      "name": "Cedric Decruw",
+      "job": "Corporate Directives Executive",
+      "email": "cedricdecruw@doe.com",
+      "ORCID": "0000-0000-0000-0000",
+      "affiliation": {
+          "name": "University of Test",
+          "id": "0000-0000-0000-0000",
+          "url": "http://www.test.com"
+      }
+    },
+    {
+      "img": "img/contacts/01.jpg",
+      "name": "Marc Portier",
+      "job": "Team Lead",
+      "email": "marc.portier@vliz.be",
+      "ORCID": "0000-0000-0000-0000",
+      "affiliation": {
+          "name": "University of Test",
+          "id": "0000-0000-0000-0000",
+          "url": "http://www.test.com"
+      }
+    },
+    {
+      "img": "img/contacts/03.jpg",
+      "name": "Katrina Exter",
+      "job": "Senior Science Officer",
+      "email": "katrina.exter@vliz.be",
+      "ORCID": "0000-0000-0000-0000",
+      "affiliation": {
+          "name": "University of Test",
+          "id": "0000-0000-0000-0000",
+          "url": "http://www.test.com"
+      }
+    }
+]

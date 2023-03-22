@@ -1,0 +1,19 @@
+[
+    {
+        "name": "combined imagedata",
+        "url": "https://github.com/arms-mbon/Data/blob/main/QualityControlledData/Combined/combined_ImageData.csv",
+        "description": "tabular data of all images in the combined dataset",
+        "extra_info": "https://github.com/arms-mbon/Data/blob/main/QualityControlledData/Combined/README.md"
+    },
+    {
+        "name": "test 2",
+        "url": "https://github.com/arms-mbon/Data/blob/main/QualityControlledData/Combined/combined_ImageData.csv",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc sit amet aliquam lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl"
+    },
+    {
+        "name": "test 3",
+        "url": "https://github.com/arms-mbon/Data/blob/main/QualityControlledData/Combined/combined_ImageData.csv",
+        "description": "Combined Image Data",
+        "extra_info": "https://github.com/arms-mbon/Data/blob/main/QualityControlledData/Combined/README.md"
+    }
+]
