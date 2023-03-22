@@ -1,0 +1,84 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
+
+<https://orcid.org/0000-0000-0000-0000>
+    a foaf:Person ;
+    foaf:name "Cedric Decruw" ;
+    foaf:mbox <mailto:cedricdecruw@doe.com> ;
+    .
+    
+<https://orcid.org/0000-0000-0000-0000>
+    a foaf:Person ;
+    foaf:name "Marc Portier" ;
+    foaf:mbox <mailto:marc.portier@vliz.be> ;
+    .
+    
+<https://orcid.org/0000-0000-0000-0000>
+    a foaf:Person ;
+    foaf:name "Katrina Exter" ;
+    foaf:mbox <mailto:katrina.exter@vliz.be> ;
+    .
+    
+
+<https://arms-mbon.github.io/arms-mbon/data.arms-mbon.org> rdf:type foaf:Project ;
+    dc:title "Autonomous Reef Monitoring System" ;
+    foaf:name "ARMS" ;
+    dc:description "The European ARMS programme (ARMS-MBON) is a network of Autonomous Reef Monitoring Structures (ARMS) placed in the vicinity of marine stations, ports, marinas, and Long-Term Ecological Research (LTER) sites distributed over Europe and polar regions. The aim of ARMS-MBON is to assess the status of, and changes in, hard-bottom communities of near-coast environments, using genetic methods supplemented with image analysis and visual inspection methods. ARMS-MBON is part of GEO BONs Marine Biodiversity Observation Network (MBON)." ;
+    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> 
+    .
+<https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
+.
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum" ;
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum" ;
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum" ;
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum" ;
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum dolor" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Consectetur adipiscing" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum dolor" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Consectetur adipiscing" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Lorem ipsum dolor" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
+<http://www.google.com> rdf:type da:crateRepo ;
+    dc:title "Consectetur adipiscing" ;
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    .
+
