@@ -10,7 +10,7 @@
     foaf:mbox <mailto:cedricdecruw@doe.com> ;
     .
     
-<https://orcid.org/0000-0000-0000-0000>
+<https://orcid.org/0000-0002-9648-6484>
     a foaf:Person ;
     foaf:name "Marc Portier" ;
     foaf:mbox <mailto:marc.portier@vliz.be> ;
@@ -54,7 +54,7 @@
 
 </Data> rdf:type da:crateRepo ;
     dc:title "Data" ;
-    dc:description "Data central RO-Crate" 
+    dc:description "Central data RO-Crate, containing further data repositories" 
     .
 
 <http://www.google.com> rdf:type da:crateRepo ;
