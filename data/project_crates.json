@@ -1,9 +1,13 @@
 [
   {
     "icon": "fa fa-wordpress",
-    "name": "Lorem ipsum dolor",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "name": "Data",
+    "url" : "/Data",
+    "text": "Data central RO-Crate",
+    "index": [
+      {"path":"/qualitycontroldata", "label": "text"},
+      {"path":"/other", "label": "blah"}
+    ]
   },
   {
     "icon": "fa fa-cart-arrow-down",
