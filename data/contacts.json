@@ -1,6 +1,6 @@
 [
   {
-      "img": "img/VLIZ_LOGO.png",
+      "img": "img/contacts/cedric_decruw.jpg",
       "name": "Cedric Decruw",
       "job": "Corporate Directives Executive",
       "email": "cedricdecruw@doe.com",
@@ -12,19 +12,18 @@
       }
     },
     {
-      "img": "img/contacts/01.jpg",
+      "img": "img/contacts/marc_portier.jpg",
       "name": "Marc Portier",
-      "job": "Team Lead",
+      "job": "Open Science Team Lead",
       "email": "marc.portier@vliz.be",
-      "ORCID": "0000-0000-0000-0000",
+      "ORCID": "0000-0002-9648-6484",
       "affiliation": {
-          "name": "University of Test",
-          "id": "0000-0000-0000-0000",
-          "url": "http://www.test.com"
+          "name": "VLIZ vzw"
+          "url": "http://vliz.be/"
       }
     },
     {
-      "img": "img/contacts/03.jpg",
+      "img": "img/contacts/katrina_exter.jpg",
       "name": "Katrina Exter",
       "job": "Senior Science Officer",
       "email": "katrina.exter@vliz.be",
