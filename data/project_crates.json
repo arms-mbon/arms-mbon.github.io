@@ -3,11 +3,12 @@
     "icon": "fa fa-wordpress",
     "name": "Data",
     "url" : "/Data",
-    "text": "Data central RO-Crate",
+    "text": "Central data RO-Crate, containing further data repositories",
     "index": [
-      {"path":"/qualitycontroldata", "label": "text"},
-      {"path":"/other", "label": "blah"}
-    ]
+      {"path":"/QualityControlledData", "label": "This is the repository for data taken from different sources, which are then quality controlled and combined"},
+      {"path":"/QualityControlledData/FromPlutoF", "label": "The metadata taken from PlutoF, which are quality controlled"}
+    ],
+    "group": "data group"
   },
   {
     "icon": "fa fa-cart-arrow-down",
