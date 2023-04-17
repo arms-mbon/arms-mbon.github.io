@@ -1,26 +1,26 @@
 [
     {
         "title": "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4",
-        "text": "Text about something interesting here A",
+        "text": "Exter, Katrina, et al. Genomics Observatory Use-Case: the challenge to standardise image and sequence data to Darwin Core format.Biodiversity Information Science and Standards 4 (2020): e58938",
         "img": "/img/publications/1.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        "link": "https://dx.doi.org/10.3897/biss.4.58938"
     },
     {
-        "title": "The cat in the hat",
-        "text": "The cat in the hat sat on the mat. One hopes he didn't leave a fat cat track in the form of a shattered mat.",
+        "title": "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)",
+        "text": "Obst, Matthias, et al. A marine biodiversity observation network for genetic monitoring of hard-bottom communities (ARMS-MBON). Frontiers in Marine Science 7 (2020): 572680.",
         "img": "/img/publications/2.jpeg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        "link": "https://dx.doi.org/10.3389/fmars.2020.572680"
     },
     {
-        "title": "The bone in the bone",
-        "text": "Spooky scary skeletons send shivers down your spine. Shrieking skulls will shock your soul, seal your doom tonight.",
+        "title": "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure. Genomic Observatories/ASSEMBLE/Interreg Balkan-Mediterranean/IMBBS/HCMR",
+        "text": "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure.(2019).",
         "img": "/img/publications/3.jpg",
         "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
     },
     {
-        "title": "The eel in the seal caught the whale in the mail",
-        "text": "The eel in the seal caught the whale in the mail. The whale in the mail was a very big whale.",
+        "title": "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea",
+        "text": "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea. ARPHA Conference Abstracts. Vol. 4. Pensoft Publishers, 2021.",
         "img": "/img/publications/4.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        "link": "https://dx.doi.org/10.3897/aca.4.e64760"
     }
 ]
