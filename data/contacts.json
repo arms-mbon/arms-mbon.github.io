@@ -21,6 +21,17 @@
           "name": "VLIZ vzw",
           "url": "http://vliz.be/"
       }
+       },
+      {
+      "img": "img/contacts/christinapavloudi.jpg",
+      "name": "Christina Pavloudi",
+      "job": "Molecular genetic analysis",
+      "email": "cpavloud@hcmr.gr",
+      "ORCID": " 0000-0001-5106-6067",
+      "affiliation": {
+          "name": "HELLENIC CENTRE FOR MARINE RESEARCH",
+          "url": "https://www.hcmr.gr/en/"
+      }
     },
     {
       "img": "img/contacts/katrina_exter.jpg",
