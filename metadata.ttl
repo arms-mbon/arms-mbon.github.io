@@ -25,8 +25,8 @@
 
 <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io> rdf:type foaf:Project ;
     dc:title "Autonomous Reef Monitoring System" ;
-    foaf:name "ARMS" ;
-    dc:description "The European ARMS programme (ARMS-MBON) is a network of Autonomous Reef Monitoring Structures (ARMS) placed in the vicinity of marine stations, ports, marinas, and Long-Term Ecological Research (LTER) sites distributed over Europe and polar regions. The aim of ARMS-MBON is to assess the status of, and changes in, hard-bottom communities of near-coast environments, using genetic methods supplemented with image analysis and visual inspection methods. ARMS-MBON is part of GEO BONs Marine Biodiversity Observation Network (MBON)." ;
+    foaf:name "ARMS-MBON" ;
+    dc:description "ARMS-MBON: The European ARMS programme" ;
     foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> 
     .
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
