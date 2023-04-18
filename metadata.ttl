@@ -26,7 +26,7 @@
 <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io> rdf:type foaf:Project ;
     dc:title "Autonomous Reef Monitoring System" ;
     foaf:name "ARMS-MBON" ;
-    dc:description "ARMS-MBON: The European ARMS programme" ;
+    dc:description "ARMS-MBON: The European ARMS Marine Biodiversity Observation Network" ;
     foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> 
     .
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
