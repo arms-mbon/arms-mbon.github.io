@@ -1,7 +1,7 @@
 {
-    "name_site": "ARMS",
+    "name_site": "ARMS-MBON",
     "main_image": "https://assets.newatlas.com/dims4/default/e58452e/2147483647/strip/true/crop/1498x999+0+0/resize/1440x960!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fb1%2Fb4%2F2a5bc31341fbaa31e2230d038f66%2Ficture1.jpeg",
-    "description": "The European ARMS programme (ARMS-MBON) is a network of Autonomous Reef Monitoring Structures (ARMS) placed in the vicinity of marine stations, ports, marinas, and Long-Term Ecological Research (LTER) sites distributed over Europe and polar regions. The aim of ARMS-MBON is to assess the status of, and changes in, hard-bottom communities of near-coast environments, using genetic methods supplemented with image analysis and visual inspection methods. ARMS-MBON is part of GEO BONs Marine Biodiversity Observation Network (MBON).",
+    "description": "ARMS-MBON: The European ARMS programme",
     "long_name": "Autonomous Reef Monitoring System",
     "short_name": "ARMS",
     "logo": "https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg",
