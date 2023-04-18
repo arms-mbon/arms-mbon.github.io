@@ -16,6 +16,12 @@
     foaf:mbox <mailto:marc.portier@vliz.be> ;
     .
     
+<https://orcid.org/%200000-0001-5106-6067>
+    a foaf:Person ;
+    foaf:name "Christina Pavloudi" ;
+    foaf:mbox <mailto:cpavloud@hcmr.gr> ;
+    .
+    
 <https://orcid.org/0000-0000-0000-0000>
     a foaf:Person ;
     foaf:name "Katrina Exter" ;
