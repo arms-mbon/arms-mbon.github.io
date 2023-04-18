@@ -4,28 +4,28 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
 
-<https://orcid.org/0000-0000-0000-0000>
+<https://orcid.org/0000-0003-0264-9631>
     a foaf:Person ;
-    foaf:name "Cedric Decruw" ;
-    foaf:mbox <mailto:cedricdecruw@doe.com> ;
+    foaf:name "Matthias Obst" ;
+    foaf:mbox <mailto:matthias.obst@marine.gu.se> ;
     .
     
-<https://orcid.org/0000-0002-9648-6484>
-    a foaf:Person ;
-    foaf:name "Marc Portier" ;
-    foaf:mbox <mailto:marc.portier@vliz.be> ;
-    .
-    
-<https://orcid.org/%200000-0001-5106-6067>
+<https://orcid.org/0000-0001-5106-6067>
     a foaf:Person ;
     foaf:name "Christina Pavloudi" ;
     foaf:mbox <mailto:cpavloud@hcmr.gr> ;
     .
     
-<https://orcid.org/0000-0000-0000-0000>
+<https://orcid.org/0000-0002-5911-1536>
     a foaf:Person ;
     foaf:name "Katrina Exter" ;
     foaf:mbox <mailto:katrina.exter@vliz.be> ;
+    .
+    
+<https://orcid.org/0000-0002-4405-6802>
+    a foaf:Person ;
+    foaf:name "Haris Zafeiropoulos" ;
+    foaf:mbox <mailto:haris.zafeiropoulos@kuleuven.be> ;
     .
     
 
