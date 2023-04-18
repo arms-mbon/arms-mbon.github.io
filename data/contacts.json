@@ -1,33 +1,22 @@
 [
-  {
-      "img": "img/contacts/cedric_decruw.jpg",
-      "name": "Cedric Decruw",
-      "job": "Open Science Developer",
-      "email": "cedricdecruw@doe.com",
-      "ORCID": "0000-0000-0000-0000",
+ 
+      {
+      "img": "img/contacts/matthiasobst.jpg",
+      "name": "Matthias Obst",
+      "job": "Project leader",
+      "email": "matthias.obst@marine.gu.se",
+      "ORCID": "0000-0003-0264-9631",
       "affiliation": {
-          "name": "University of Test",
-          "id": "0000-0000-0000-0000",
-          "url": "http://www.test.com"
+          "name": "University of Gothenburg",
+          "url": "https://www.gu.se/en/"
       }
     },
-    {
-      "img": "img/contacts/marc_portier.jpg",
-      "name": "Marc Portier",
-      "job": "Open Science Team Lead",
-      "email": "marc.portier@vliz.be",
-      "ORCID": "0000-0002-9648-6484",
-      "affiliation": {
-          "name": "VLIZ vzw",
-          "url": "http://vliz.be/"
-      }
-       },
       {
       "img": "img/contacts/christinapavloudi.jpg",
       "name": "Christina Pavloudi",
-      "job": "Molecular Genetic Analysis",
+      "job": "Molecular genetic analysis",
       "email": "cpavloud@hcmr.gr",
-      "ORCID": " 0000-0001-5106-6067",
+      "ORCID": "0000-0001-5106-6067",
       "affiliation": {
           "name": "HELLENIC CENTRE FOR MARINE RESEARCH",
           "url": "https://www.hcmr.gr/en/"
@@ -36,13 +25,23 @@
     {
       "img": "img/contacts/katrina_exter.jpg",
       "name": "Katrina Exter",
-      "job": "Senior Science Officer",
+      "job": "Data manager",
       "email": "katrina.exter@vliz.be",
-      "ORCID": "0000-0000-0000-0000",
+      "ORCID": "0000-0002-5911-1536",
       "affiliation": {
-          "name": "University of Test",
-          "id": "0000-0000-0000-0000",
-          "url": "http://www.test.com"
+          "name": "Flander's Marine Institute (VLIZ)",
+          "url": "https://vliz.be/"
+      }
+    },
+  {
+      "img": "img/contacts/hariszaf.jpg",
+      "name": "Haris Zafeiropoulos",
+      "job": "PEMA developer",
+      "email": "haris.zafeiropoulos@kuleuven.be",
+      "ORCID": "0000-0002-4405-6802",
+      "affiliation": {
+          "name": "Rega Institute for Medical Research, KU Leuven",
+          "url": "https://rega.kuleuven.be/"
       }
     }
 ]
