@@ -450,6 +450,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 160px;
+  height: 160px;
 }
 #team .thumbnail {
   background: transparent;
