@@ -33,6 +33,17 @@
           "url": "https://vliz.be/"
       }
     },
+    {
+      "img": "img/contacts/no_profile.jpg",
+      "name": "Jon Bent Kristoffersen",
+      "job": "DNA sequencing",
+      "email": " jonbent@hcmr.gr",
+      "ORCID": "0000-0002-8804-1864",
+      "affiliation": {
+          "name": "The Hellenic Centre for Marine Research",
+          "url": "https://imbbc.hcmr.gr/"
+    }
+  },
   {
       "img": "img/contacts/no_profile.jpg",
       "name": "Haris Zafeiropoulos",
