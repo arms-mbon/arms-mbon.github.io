@@ -34,7 +34,7 @@
       }
     },
     {
-      "img": "img/contacts/no_profile.jpg",
+      "img": "img/contacts/JonKristoffersen.jpg",
       "name": "Jon Bent Kristoffersen",
       "job": "DNA sequencing",
       "email": " jonbent@hcmr.gr",
@@ -45,7 +45,7 @@
     }
   },
   {
-      "img": "img/contacts/no_profile.jpg",
+      "img": "img/contacts/Haris_Zafeiropoulos.jpg",
       "name": "Haris Zafeiropoulos",
       "job": "PEMA developer",
       "email": "haris.zafeiropoulos@kuleuven.be",
