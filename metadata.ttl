@@ -22,6 +22,12 @@
     foaf:mbox <mailto:katrina.exter@vliz.be> ;
     .
     
+<https://orcid.org/0000-0002-8804-1864>
+    a foaf:Person ;
+    foaf:name "Jon Bent Kristoffersen" ;
+    foaf:mbox <mailto: jonbent@hcmr.gr> ;
+    .
+    
 <https://orcid.org/0000-0002-4405-6802>
     a foaf:Person ;
     foaf:name "Haris Zafeiropoulos" ;
