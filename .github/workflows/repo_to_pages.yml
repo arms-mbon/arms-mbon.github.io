@@ -15,7 +15,7 @@ jobs:
       
       # Build the preview.html file from the rocrate.json
       - name: Rocrate-to-pages build
-        uses: vliz-be-opsci/bon-site-to-pages@latest
+        uses: vliz-be-opsci/space-to-pages@latest
         with:
           repo_path: https://github.com/{org}/{repo} #replace {org} by organisation and {repo} by the current repo
           #base_uri: https://${{ github.repository_owner }}.github.io/${{ github.repository }}
