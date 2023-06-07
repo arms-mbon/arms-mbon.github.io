@@ -3,6 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
+@prefix schema: <http://schema.org/> .
 
 <https://orcid.org/0000-0003-0264-9631>
     a foaf:Person ;
@@ -25,7 +26,7 @@
 <https://orcid.org/0000-0002-8804-1864>
     a foaf:Person ;
     foaf:name "Jon Bent Kristoffersen" ;
-    foaf:mbox <mailto: jonbent@hcmr.gr> ;
+    foaf:mbox <mailto:jonbent@hcmr.gr> ;
     .
     
 <https://orcid.org/0000-0002-4405-6802>
@@ -39,58 +40,130 @@
     dc:title "Autonomous Reef Monitoring System" ;
     foaf:name "ARMS-MBON" ;
     dc:description "ARMS-MBON: The European ARMS Marine Biodiversity Observation Network" ;
-    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> 
+    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg>;
+    schema:mainEntityOfPage <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+    schema:hasPart [
+        rdf:type schema:ItemList;
+        schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+        schema:name "Profiles in Autonomous Reef Monitoring System" ;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        ],
+    [
+        rdf:type schema:ItemList;
+        schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+        schema:name "Crates in Autonomous Reef Monitoring System" ;
+        schema:itemListElement <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData>;
+        schema:itemListElement <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        schema:itemListElement <http://www.google.com>;
+        ];
+    
+    schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=354999>;
+    
+    schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
+    
+    schema:hasPart <https://dx.doi.org/10.3897/biss.4.58938>;
+    
+    schema:hasPart <https://dx.doi.org/10.3389/fmars.2020.572680>;
+    
+    schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=311999>;
+    
     .
+
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
-.
+    .
 
-<http://www.google.com> rdf:type da:crateRepo ;
+
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." ;
+    schema:item <http://www.google.com> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." ;
+    schema:item <http://www.google.com> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." ;
+    schema:item <http://www.google.com> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." ;
+    schema:item <http://www.google.com> ;
     .
 
-</Data> rdf:type da:crateRepo ;
-    dc:title "Data" ;
-    dc:description "Central data RO-Crate, containing further data repositories" 
+<https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:description "This is the repository for data taken from different sources, which are then quality controlled and combined" ;
+    schema:item <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData>;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
+<https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:description "The metadata taken from PlutoF, which are quality controlled" ;
+    schema:item <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF>;
+    .
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." ;
+    schema:item <http://www.google.com> ;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum dolor" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." ;
+    schema:item <http://www.google.com> ;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." ;
+    schema:item <http://www.google.com> ;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Lorem ipsum dolor" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." ;
+    schema:item <http://www.google.com> ;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
+<http://www.google.com> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." ;
+    schema:item <http://www.google.com> ;
     .
 
+<http://www.assembleplus.eu/information-system?module=ref&refid=354999> rdf:type schema:CreativeWork ;
+    dc:title "Genetic methods in environmental monitoring: Early detection and monitoring of non-indigenous species based on DNA" ;
+    dc:description "Sundberg, P., et al., Report for the Swedish Agency for Marine and Water Management report, 4 (2022)" ;
+    schema:url <http://www.assembleplus.eu/information-system?module=ref&refid=354999> ;
+    .
+
+<https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
+    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
+    dc:description "Pavloudi, C., et al., Poster presenting the ARMS-MBON project, ARPHA Conference Abstracts (Pensoft Publishers), 4 (2021)" ;
+    schema:url <https://dx.doi.org/10.3897/aca.4.e64760> ;
+    .
+
+<https://dx.doi.org/10.3897/biss.4.58938> rdf:type schema:CreativeWork ;
+    dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format" ;
+    dc:description "Exter, K., et al. Presentation at an online conference of the Biodiversity Information Science and Standards, 4 (2020)" ;
+    schema:url <https://dx.doi.org/10.3897/biss.4.58938> ;
+    .
+
+<https://dx.doi.org/10.3389/fmars.2020.572680> rdf:type schema:CreativeWork ;
+    dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
+    dc:description "Obst, M., et al. An introductions to the ARMS-MBON project: its aims, its data, its network, its science. Frontiers in Marine Science, 7 (2020)" ;
+    schema:url <https://dx.doi.org/10.3389/fmars.2020.572680> ;
+    .
+
+<http://www.assembleplus.eu/information-system?module=ref&refid=311999> rdf:type schema:CreativeWork ;
+    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure" ;
+    dc:description "Pavloudi, C., et al. Poster presenting the ARMS-MBON project (2019)" ;
+    schema:url <http://www.assembleplus.eu/information-system?module=ref&refid=311999> ;
+    .
