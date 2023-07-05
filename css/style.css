@@ -46,6 +46,9 @@ a {
   color: #608dfd;
   font-weight: 400;
 }
+
+
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -597,9 +600,6 @@ label {
 }
 #footer a {
   color: #608dfd;
-}
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
 }
 
 @media (max-width: 768px) {
