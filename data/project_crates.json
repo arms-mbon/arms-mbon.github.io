@@ -1,17 +1,6 @@
 [
   {
     "icon": "fa fa-archive",
-    "name": "Data",
-    "url" : "/Data",
-    "text": "Central data RO-Crate, containing further data repositories",
-    "index": [
-      {"path":"/QualityControlledData", "label": "This is the repository for data taken from different sources, which are then quality controlled and combined"},
-      {"path":"/QualityControlledData/FromPlutoF", "label": "The metadata taken from PlutoF, which are quality controlled"}
-    ],
-    "group": "data group"
-  },
-  {
-    "icon": "fa fa-archive",
     "name": "Data Workspace",
     "url" : "/data_workspace",
     "text": "Repository where source data are harvested and quality controlled."
