@@ -1,6 +1,6 @@
 [
   {
-    "icon": "fa fa-wordpress",
+    "icon": "fa fa-archive",
     "name": "Data",
     "url" : "/Data",
     "text": "Central data RO-Crate, containing further data repositories",
@@ -11,33 +11,27 @@
     "group": "data group"
   },
   {
-    "icon": "fa fa-cart-arrow-down",
-    "name": "Consectetur adipiscing",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "icon": "fa fa-archive",
+    "name": "Data Workspace",
+    "url" : "/data_workspace",
+    "text": "Repository where source data are harvested and quality controlled."
   },
   {
-    "icon": "fa fa-cloud-download",
-    "name": "Lorem ipsum dolor",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "icon": "fa fa-archive",
+    "name": "Documentation",
+    "url" : "/documentation",
+    "text": "ARMS-MBON documentation and templates."
   },
   {
-    "icon": "fa fa-language",
-    "name": "Consectetur adipiscing",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "icon": "fa fa-archive",
+    "name": "Data release 001",
+    "url" : "data_release_001",
+    "text": "Data related to the 2018-2020 sampling events and published in EUROBIS."
   },
   {
-    "icon": "fa fa-plane",
-    "name": "Lorem ipsum dolor",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-  },
-  {
-    "icon": "fa fa-pie-chart",
-    "name": "Consectetur adipiscing",
-    "url" : "http://www.google.com",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "icon": "fa fa-archive",
+    "name": "Analysis release 001",
+    "url" : "analyis_release_001",
+    "text": "Analysis data related to the 2018-2020 sampling events and published in EUROBIS."
   }
 ]
