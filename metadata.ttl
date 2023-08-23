@@ -54,7 +54,7 @@
         schema:itemListElement </data_workspace>;
         schema:itemListElement </documentation>;
         schema:itemListElement <data_release_001>;
-        schema:itemListElement <analyis_release_001>;
+        schema:itemListElement <analysis_release_001>;
         ];
     
     schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=354999>;
@@ -88,10 +88,10 @@
     dc:description "Data related to the 2018-2020 sampling events and published in EUROBIS." ;
     schema:item <data_release_001> ;
     .
-<analyis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+<analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Analysis release 001" ;
     dc:description "Analysis data related to the 2018-2020 sampling events and published in EUROBIS." ;
-    schema:item <analyis_release_001> ;
+    schema:item <analysis_release_001> ;
     .
 
 <http://www.assembleplus.eu/information-system?module=ref&refid=354999> rdf:type schema:CreativeWork ;
