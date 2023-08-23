@@ -51,8 +51,6 @@
         rdf:type schema:ItemList;
         schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
-        schema:itemListElement <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData>;
-        schema:itemListElement <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF>;
         schema:itemListElement </data_workspace>;
         schema:itemListElement </documentation>;
         schema:itemListElement <data_release_001>;
@@ -75,14 +73,6 @@
     .
 
 
-<https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:description "This is the repository for data taken from different sources, which are then quality controlled and combined" ;
-    schema:item <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData>;
-    .
-<https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:description "The metadata taken from PlutoF, which are quality controlled" ;
-    schema:item <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io/Data/QualityControlledData/FromPlutoF>;
-    .
 </data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data Workspace" ;
     dc:description "Repository where source data are harvested and quality controlled." ;
