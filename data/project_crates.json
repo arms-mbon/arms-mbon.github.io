@@ -3,7 +3,7 @@
     "icon": "fa fa-archive",
     "name": "Data Workspace",
     "url" : "/data_workspace",
-    "text": "Repository where source data are harvested and quality controlled."
+    "text": "Repository where source data are harvested and quality controlled. Folders here include the quality controlled sampling data from different sources, and analysis data"
   },
   {
     "icon": "fa fa-archive",
@@ -15,12 +15,12 @@
     "icon": "fa fa-archive",
     "name": "Data release 001",
     "url" : "data_release_001",
-    "text": "Data related to the 2018-2020 sampling events and published in EUROBIS."
+    "text": "The first data release to be submitted to EurOBIS: the event, sample, and raw sequence IDs for the sampling events between 2018 and 2020"
   },
   {
     "icon": "fa fa-archive",
     "name": "Analysis release 001",
     "url" : "analysis_release_001",
-    "text": "Analysis data related to the 2018-2020 sampling events and published in EUROBIS."
+    "text": "The first analysis data release to be submitted to EurOBIS: the COI bioinformatics results for the sampling events between 2018 and 2020"
   }
 ]
