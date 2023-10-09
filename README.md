@@ -1,5 +1,5 @@
 
-**ARMS-MBON** is a **European Marine Biodiversity Observation Network (MBON)** of **Autonomous Reef Monitoring Structures (ARMS)**
+**ARMS-MBON** is a **European Marine Biodiversity Observation Network (MBON)** of **Autonomous Reef Monitoring Structures (ARMS)**.
 
 In ARMS-MBON we use ARMS units to sample the biodiversity of the European coastal hard-bottom environments. Our ARMS units are placed for months at a time in the vicinity of marine stations, ports, marinas, and long-term ecological research sites distributed over Europe and polar regions. They are populated by the surrounding hard-bottom communities, and once the units are retrieved, the organisms that colonised them are sampled and analysed. The aim of ARMS-MBON is to assess the status of, and changes in, the hard-bottom communities of these near-coast environments, using DNA (metabarcoding), image, and visual inspection methods. The project started in 2018, and from 2023 it will continue as part of EMBRC's <a href="https://www.embrc.eu/emo-bon" target="_blank">EMO BON</a>  project. More information on the ARMS-MBON project can be found on its <a href="https:///www.arms-mbon.eu" target="_blank">home page</a>.  
 
