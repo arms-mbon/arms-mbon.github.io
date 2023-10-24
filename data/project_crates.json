@@ -2,25 +2,29 @@
   {
     "icon": "fa fa-archive",
     "name": "Data Workspace",
-    "url" : "/data_workspace",
+    "url" : "https://github.com/arms-mbon/data_workspace",
+    "crateurl": "/data_workspace",
     "text": "Repository where source data are harvested and quality controlled. Folders here include the quality controlled sampling data from different sources, and analysis data"
   },
   {
     "icon": "fa fa-archive",
     "name": "Documentation",
-    "url" : "/documentation",
+    "url" : "https://github.com/arms-mbon/documentation",
+    "crateurl" : "/documentation",
     "text": "ARMS-MBON documentation and templates."
   },
   {
     "icon": "fa fa-archive",
     "name": "Data release 001",
-    "url" : "data_release_001",
+    "url" : "https://github.com/arms-mbon/data_release_001",
+    "crateurl" : "/data_release_001",
     "text": "The first data release to be submitted to EurOBIS: the event, sample, and raw sequence IDs for the sampling events between 2018 and 2020"
   },
   {
     "icon": "fa fa-archive",
     "name": "Analysis release 001",
-    "url" : "analysis_release_001",
+    "url" : "https://github.com/arms-mbon/analysis_release_001",
+    "crateurl" : "/analysis_release_001",
     "text": "The first analysis data release to be submitted to EurOBIS: the COI bioinformatics results for the sampling events between 2018 and 2020"
   }
 ]
