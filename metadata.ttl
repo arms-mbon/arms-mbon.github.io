@@ -51,10 +51,10 @@
         rdf:type schema:ItemList;
         schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
-        schema:itemListElement </data_workspace>;
-        schema:itemListElement </documentation>;
-        schema:itemListElement <data_release_001>;
-        schema:itemListElement <analysis_release_001>;
+        schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
+        schema:itemListElement <https://github.com/arms-mbon/documentation>;
+        schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
+        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
         ];
     
     schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
@@ -79,25 +79,25 @@
     .
 
 
-</data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
+<https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data Workspace" ;
     dc:description "Repository where source data are harvested and quality controlled. Folders here include the quality controlled sampling data from different sources, and analysis data" ;
-    schema:item </data_workspace> ;
+    schema:item <https://github.com/arms-mbon/data_workspace> ;
     .
-</documentation> rdf:type schema:ListItem, schema:CreativeWork ;
+<https://github.com/arms-mbon/documentation> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Documentation" ;
     dc:description "ARMS-MBON documentation and templates." ;
-    schema:item </documentation> ;
+    schema:item <https://github.com/arms-mbon/documentation> ;
     .
-<data_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+<https://github.com/arms-mbon/data_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data release 001" ;
     dc:description "The first data release to be submitted to EurOBIS: the event, sample, and raw sequence IDs for the sampling events between 2018 and 2020" ;
-    schema:item <data_release_001> ;
+    schema:item <https://github.com/arms-mbon/data_release_001> ;
     .
-<analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Analysis release 001" ;
     dc:description "The first analysis data release to be submitted to EurOBIS: the COI bioinformatics results for the sampling events between 2018 and 2020" ;
-    schema:item <analysis_release_001> ;
+    schema:item <https://github.com/arms-mbon/analysis_release_001> ;
     .
 
 <https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
