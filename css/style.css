@@ -328,22 +328,24 @@ header .intro-text {
   left: 50%;
 }
 #crates i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
+  font-size: 35px;
+  width: 80px;
+  height: 15px;
   color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#crates h3 {
-  font-weight: 500;
+
+#crates i.fa:hover {
+  color: #000000;
+}
+
+#crates h4 {
+  font-weight: 400;
   padding: 5px 0;
   color: #fff;
 }
 #crates p {
   color: rgba(255, 255, 255, 0.75);
+  padding: 5px 0;
 }
 #crates .crate-desc {
   margin-bottom: 40px;
