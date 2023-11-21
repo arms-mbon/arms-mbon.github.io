@@ -82,7 +82,7 @@
 
 <https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data Workspace" ;
-    dc:description "Repository where (meta)data are harvested from their source archives, quality controlled, semantically annotated, and combined. Sampling and omics metadata, omics processing results, and image metadata are included here" ;
+    dc:description "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and omics metadata, omics processing results, and image metadata are included here" ;
     schema:item <https://github.com/arms-mbon/data_workspace> ;
     .
 <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> rdf:type schema:ListItem, schema:CreativeWork ;
