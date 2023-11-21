@@ -7,7 +7,7 @@ This current webpage is the landing page giving you access to all the data colle
 
 Read further, or use the menu to go directly to:
 <ul>
-<li>- Our Data packages(+)</li>
+<li>- Our Data packages</li>
 <li>- Our Publications</li>
 <li>- The Team</li> 
 </ul>
