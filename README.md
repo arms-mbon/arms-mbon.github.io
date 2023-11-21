@@ -7,10 +7,7 @@ This current webpage is the landing page giving you access to all the data colle
 
 Read further, or use the menu to go directly to:
 <ul>
-<li>- The Data Explorer, to access the qulity controlled and combined ARMS-MBON data</li>
+<li>- Our Data packages(+)</li>
 <li>- Our Publications</li>
-<li>- Our RO-Crates(+)</li>
 <li>- The Team</li> 
 </ul>
-
-(+) *A short word about RO-Crates and RO-Profiles.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated, and every Github repository is a single RO-Crate. This Research Object-approach is fundamental to the way we share our data so that they are FAIR. 
