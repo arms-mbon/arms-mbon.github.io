@@ -11,7 +11,9 @@ In ARMS-MBON, we use ([ENA](https://www.ebi.ac.uk/ena/browser/home) to archive o
 <li>- Our Publications</li>
 <li>- Our Team</li> 
 </ul>
-For any questions, you can contact the Team. 
 
-*A short word about our data packages, for which we use RO-Crates.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated; every GH repository is a single RO-Crate. This Research Object-approach is fundamental to making our data FAIR. Users can browse our ARMS-MBON GH space using the GH links provided below (see the GH icon) or the RO-Crate links (see the package icon). 
+For any questions, you can contact the Team.   
+  
+  
+*A short word about our data packages.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated; every GH repository is a single RO-Crate. This Research Object-approach is fundamental to making our data FAIR. Users can browse ARMS-MBON data using the GH links provided below (see the GH icon) or with the RO-Crate viewer links (see the package icon). 
 
