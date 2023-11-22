@@ -51,8 +51,8 @@
         rdf:type schema:ItemList;
         schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
-        schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined>;
+        schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
         schema:itemListElement <https://github.com/arms-mbon/documentation>;
         schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
         schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
@@ -80,15 +80,15 @@
     .
 
 
-<https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:title "Data Workspace" ;
-    dc:description "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and omics metadata, omics processing results, and image metadata are included here" ;
-    schema:item <https://github.com/arms-mbon/data_workspace> ;
-    .
 <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Combined data spreadsheets" ;
     dc:description "Folder inside the Data Workspace where the combined metadata spreadsheet can be found: observatory, sampling event, image, and omics metadata" ;
     schema:item <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> ;
+    .
+<https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "Data Workspace" ;
+    dc:description "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and omics metadata, omics processing results, and image metadata are included here" ;
+    schema:item <https://github.com/arms-mbon/data_workspace> ;
     .
 <https://github.com/arms-mbon/documentation> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Documentation" ;
