@@ -4,34 +4,34 @@
     "name": "Combined data spreadsheets",
     "url" : "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
     "crateurl": "/latest/#./qualitycontrolled_data/combined/",
-    "text": "Folder inside the Data Workspace where the combined metadata spreadsheet can be found: observatory, sampling event, image, and omics metadata"
+    "text": "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data: observatory, sampling event, image, and seu"
   },
   {
     "icon": "fa fa-archive",
     "name": "Data Workspace",
     "url" : "https://github.com/arms-mbon/data_workspace",
     "crateurl": "/data_workspace/latest/#./",
-    "text": "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and omics metadata, omics processing results, and image metadata are included here"
+    "text": "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and sequence metadata, omics processing results, and image metadata are included here"
   },
   {
     "icon": "fa fa-archive",
     "name": "Documentation",
     "url" : "https://github.com/arms-mbon/documentation",
     "crateurl" : "/documentation/latest/#./",
-    "text": "ARMS-MBON documentation and templates for labels, observation and image spreadsheets"
+    "text": "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets"
   },
   {
     "icon": "fa fa-archive",
     "name": "Data release 001",
     "url" : "https://github.com/arms-mbon/data_release_001",
     "crateurl" : "/data_release_001/latest/#./",
-    "text": "Species idenfications, sampling event metdata, image metadata for the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)"
+    "text": "Species identifications, sampling event metdata, image metadata for the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)"
   },
   {
     "icon": "fa fa-archive",
     "name": "Analysis release 001",
     "url" : "https://github.com/arms-mbon/analysis_release_001",
     "crateurl" : "/analysis_release_001/latest/#./",
-    "text": "Species identifications and processed sequences from the PEMA analysi of the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)"
+    "text": "Species identifications and processed sequences from the PEMA analysis of the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)"
   }
 ]
