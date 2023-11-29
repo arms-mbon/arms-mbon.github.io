@@ -36,20 +36,20 @@
     .
     
 
-<https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io> rdf:type foaf:Project ;
+<https://data.arms-mbon.org/> rdf:type foaf:Project ;
     dc:title "Autonomous Reef Monitoring System" ;
     foaf:name "ARMS-MBON" ;
     dc:description "ARMS-MBON: The European ARMS Marine Biodiversity Observation Network" ;
     foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg>;
-    schema:mainEntityOfPage <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+    schema:mainEntityOfPage <https://data.arms-mbon.org/>;
     schema:hasPart [
         rdf:type schema:ItemList;
-        schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+        schema:partOf <https://data.arms-mbon.org/>;
         schema:name "Profiles in Autonomous Reef Monitoring System" ;
         ],
     [
         rdf:type schema:ItemList;
-        schema:partOf <https://arms-mbon.github.io/arms-mbon/arms-mbon.github.io>;
+        schema:partOf <https://data.arms-mbon.org/>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
