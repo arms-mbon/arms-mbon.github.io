@@ -64,7 +64,7 @@
     
     schema:hasPart <https://doi.org/10.1007/s10750-023-05184-9>;
     
-    schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=354999>;
+    schema:hasPart <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html>;
     
     schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
     
@@ -124,10 +124,10 @@
     schema:url <https://doi.org/10.1007/s10750-023-05184-9> ;
     .
 
-<http://www.assembleplus.eu/information-system?module=ref&refid=354999> rdf:type schema:CreativeWork ;
+<https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> rdf:type schema:CreativeWork ;
     dc:title "Genetic methods in environmental monitoring: Early detection and monitoring of non-indigenous species based on DNA" ;
     dc:description "Sundberg, P., et al., Report for the Swedish Agency for Marine and Water Management report, 4 (2022)" ;
-    schema:url <http://www.assembleplus.eu/information-system?module=ref&refid=354999> ;
+    schema:url <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> ;
     .
 
 <https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
