@@ -3,7 +3,7 @@
     "icon": "fa fa-archive",
     "name": "Combined data spreadsheets",
     "url" : "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
-    "crateurl": "/latest/#./qualitycontrolled_data/combined/",
+    "crateurl": "/data_workspace/latest/#./qualitycontrolled_data/combined/",
     "text": "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data: observatory, sampling event, image, and seu"
   },
   {
