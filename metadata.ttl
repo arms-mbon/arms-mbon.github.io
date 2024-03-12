@@ -51,11 +51,12 @@
         rdf:type schema:ItemList;
         schema:partOf <https://data.arms-mbon.org/>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
+        schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
+        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
+        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
         schema:itemListElement <https://github.com/arms-mbon/documentation>;
-        schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
-        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
         ];
     
     schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
@@ -80,9 +81,24 @@
     .
 
 
+<https://github.com/arms-mbon/data_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "Data release 001" ;
+    dc:description "All sampling event (meta)data for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
+    schema:item <https://github.com/arms-mbon/data_release_001> ;
+    .
+<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "Analysis release 001" ;
+    dc:description "The bioinformatics in/output data from the analysis of the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
+    schema:item <https://github.com/arms-mbon/analysis_release_001> ;
+    .
+<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "Code release 001" ;
+    dc:description "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
+    schema:item <https://github.com/arms-mbon/analysis_release_001> ;
+    .
 <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:title "Combined data spreadsheets" ;
-    dc:description "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data: observatory, sampling event, image, and seu" ;
+    dc:title "Quality controlled data" ;
+    dc:description "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data" ;
     schema:item <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> ;
     .
 <https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
@@ -94,16 +110,6 @@
     dc:title "Documentation" ;
     dc:description "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets" ;
     schema:item <https://github.com/arms-mbon/documentation> ;
-    .
-<https://github.com/arms-mbon/data_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:title "Data release 001" ;
-    dc:description "Species identifications, sampling event metdata, image metadata for the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)" ;
-    schema:item <https://github.com/arms-mbon/data_release_001> ;
-    .
-<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
-    dc:title "Analysis release 001" ;
-    dc:description "Species identifications and processed sequences from the PEMA analysis of the first ARMS-MBON dataset submitted to EurOBIS (species observations of the COI marker gene; 2018-2020)" ;
-    schema:item <https://github.com/arms-mbon/analysis_release_001> ;
     .
 
 <https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
