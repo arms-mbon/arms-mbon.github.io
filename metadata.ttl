@@ -53,7 +53,7 @@
         schema:name "Crates in Autonomous Reef Monitoring System" ;
         schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
         schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
-        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
+        schema:itemListElement <https://github.com/arms-mbon/code_release_001>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined>;
         schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
         schema:itemListElement <https://github.com/arms-mbon/documentation>;
@@ -92,10 +92,10 @@
     dc:description "The bioinformatics in/output data from the analysis of the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/analysis_release_001> ;
     .
-<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+<https://github.com/arms-mbon/code_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Code release 001" ;
     dc:description "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
-    schema:item <https://github.com/arms-mbon/analysis_release_001> ;
+    schema:item <https://github.com/arms-mbon/code_release_001> ;
     .
 <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Quality controlled data" ;
