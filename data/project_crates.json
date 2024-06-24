@@ -40,5 +40,12 @@
     "url" : "https://github.com/arms-mbon/documentation",
     "crateurl" : "/documentation/latest/#./",
     "text": "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets"
+  },
+  {
+    "icon": "fa fa-archive",
+    "name": "Darwin Core Generator",
+    "url" : "https://github.com/arms-mbon/darwin-core-generator",
+    "crateurl" : "/darwin-core-generator/latest/#./",
+    "text": "Scripts to turn our PEMA outputs and metadata into DcW files destined for EurOBIS"
   }
 ]
