@@ -16,7 +16,7 @@
   {
     "icon": "fa fa-archive",
     "name": "Code release 001",
-    "url" : "https://github.com/arms-mbon/analysis_release_001",
+    "url" : "https://github.com/arms-mbon/code_release_001",
     "crateurl" : "/code_release_001/latest/#./",
     "text": "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)"
   },   
