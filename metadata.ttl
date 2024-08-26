@@ -35,6 +35,12 @@
     foaf:mbox <mailto:haris.zafeiropoulos@kuleuven.be> ;
     .
     
+<https://orcid.org/0000-0002-6531-1374>
+    a foaf:Person ;
+    foaf:name "Justine Pagnier" ;
+    foaf:mbox <mailto:justine.pagnier.bv@gmail.com> ;
+    .
+    
 
 <https://data.arms-mbon.org/> rdf:type foaf:Project ;
     dc:title "Autonomous Reef Monitoring System" ;
