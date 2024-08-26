@@ -1,6 +1,6 @@
 [
  
-      {
+    {
       "img": "img/contacts/Matthias_obst.jpg",
       "name": "Matthias Obst",
       "job": "Project leader",
@@ -11,7 +11,7 @@
           "url": "https://www.gu.se/en/"
       }
     },
-      {
+    {
       "img": "img/contacts/christinapavloudi_3.jpg",
       "name": "Christina Pavloudi",
       "job": "Molecular genetic analysis",
@@ -42,9 +42,9 @@
       "affiliation": {
           "name": "The Hellenic Centre for Marine Research",
           "url": "https://imbbc.hcmr.gr/"
-    }
-  },
-  {
+      }
+    },
+    {
       "img": "img/contacts/Haris_Zafeiropoulos.jpg",
       "name": "Haris Zafeiropoulos",
       "job": "PEMA developer",
@@ -54,8 +54,8 @@
           "name": "Rega Institute for Medical Research, KU Leuven",
           "url": "https://rega.kuleuven.be/"
       }
-  }
-  {
+    },
+    {
       "img": "img/contacts/JustineP.jpg",
       "name": "Justine Pagnier",
       "job": "ARMS data manager and PEMA processer",
@@ -65,5 +65,5 @@
           "name": "University of Gothenburg",
           "url": "https://www.gu.se/en/"
       }
-  }
+    }
 ]
