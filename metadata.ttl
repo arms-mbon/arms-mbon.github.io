@@ -78,6 +78,10 @@
     # 
     # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z6>;
     # 
+    # schema:hasPart <https://doi.org/10.21203/rs.3.rs-4804152/v1>;
+    # 
+    # schema:hasPart <https://doi.org/10.1101/2024.09.26.614897>;
+    # 
     # schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
     # 
     # schema:hasPart <https://doi.org/10.3389/fmars.2023.1118120>;
@@ -140,6 +144,18 @@
 #     dc:title "Seasonality of primary production explains the richness of pioneering benthic communities" ;
 #     dc:description "Cecchetto M, Dettai A, Gallut C, Obst M, et al, Nature Communications (2024)" ;
 #     schema:url <https://doi.org/10.1038/s41467-024-52673-z6> ;
+#     .
+# 
+# <https://doi.org/10.21203/rs.3.rs-4804152/v1> rdf:type schema:CreativeWork ;
+#     dc:title "Assessing the effectiveness of genetic observatory networks in detecting and monitoring marine non-indigenous species" ;
+#     dc:description "Pagnier J, Daraghmeh N, Obst M, Biological Invasions (In review) (2024)" ;
+#     schema:url <https://doi.org/10.21203/rs.3.rs-4804152/v1> ;
+#     .
+# 
+# <https://doi.org/10.1101/2024.09.26.614897> rdf:type schema:CreativeWork ;
+#     dc:title "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2018-2020" ;
+#     dc:description "Daraghmeh N, Exter K, Pagnier J, et al, Molecular Ecology Resources (In review) (2024) " ;
+#     schema:url <https://doi.org/10.1101/2024.09.26.614897> ;
 #     .
 # 
 # <https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
