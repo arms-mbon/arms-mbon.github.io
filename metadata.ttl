@@ -57,117 +57,136 @@
         rdf:type schema:ItemList;
         schema:partOf <https://data.arms-mbon.org/>;
         schema:name "Crates in Autonomous Reef Monitoring System" ;
-        schema:itemListElement <https://github.com/arms-mbon/data_release_001>;
-        schema:itemListElement <https://github.com/arms-mbon/analysis_release_001>;
-        schema:itemListElement <https://github.com/arms-mbon/code_release_001>;
-        schema:itemListElement <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined>;
-        schema:itemListElement <https://github.com/arms-mbon/data_workspace>;
-        schema:itemListElement <https://github.com/arms-mbon/documentation>;
-        schema:itemListElement <https://github.com/arms-mbon/darwin-core-generator>;
+        schema:itemListElement <https://data.arms-mbon.org//data_release_001/latest/#./>;
+        schema:itemListElement <https://data.arms-mbon.org//analysis_release_001/latest/#./>;
+        schema:itemListElement <https://data.arms-mbon.org//code_release_001/latest/#./>;
+        schema:itemListElement <https://data.arms-mbon.org//data_workspace/latest/#./qualitycontrolled_data/combined/>;
+        schema:itemListElement <https://data.arms-mbon.org//data_workspace/latest/#./>;
+        schema:itemListElement <https://data.arms-mbon.org//documentation/latest/#./>;
+        schema:itemListElement <https://data.arms-mbon.org/>;
+        ],
+    [
+        rdf:type schema:ItemList;
+        schema:partOf <https://data.arms-mbon.org/>;
+        schema:name "Vocabularies in Autonomous Reef Monitoring System" ;
+        ],
+    [
+        rdf:type schema:ItemList;
+        schema:partOf <https://data.arms-mbon.org/>;
+        schema:name "Ontologies in Autonomous Reef Monitoring System" ;
         ];
-    
-    schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
-    
-    schema:hasPart <https://doi.org/10.3389/fmars.2023.1118120>;
-    
-    schema:hasPart <https://doi.org/10.1007/s10750-023-05184-9>;
-    
-    schema:hasPart <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html>;
-    
-    schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
-    
-    schema:hasPart <https://dx.doi.org/10.3897/biss.4.58938>;
-    
-    schema:hasPart <https://dx.doi.org/10.3389/fmars.2020.572680>;
-    
-    schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=311999>;
-    
+    # 
+    # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z6>;
+    # 
+    # schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
+    # 
+    # schema:hasPart <https://doi.org/10.3389/fmars.2023.1118120>;
+    # 
+    # schema:hasPart <https://doi.org/10.1007/s10750-023-05184-9>;
+    # 
+    # schema:hasPart <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html>;
+    # 
+    # schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
+    # 
+    # schema:hasPart <https://dx.doi.org/10.3897/biss.4.58938>;
+    # 
+    # schema:hasPart <https://dx.doi.org/10.3389/fmars.2020.572680>;
+    # 
+    # schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=311999>;
+    # 
     .
 
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
     .
 
 
-<https://github.com/arms-mbon/data_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+</data_release_001/latest/#./> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data release 001" ;
     dc:description "All sampling event (meta)data for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/data_release_001> ;
     .
-<https://github.com/arms-mbon/analysis_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+</analysis_release_001/latest/#./> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Analysis release 001" ;
     dc:description "The bioinformatics in/output data from the analysis of the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/analysis_release_001> ;
     .
-<https://github.com/arms-mbon/code_release_001> rdf:type schema:ListItem, schema:CreativeWork ;
+</code_release_001/latest/#./> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Code release 001" ;
     dc:description "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/code_release_001> ;
     .
-<https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> rdf:type schema:ListItem, schema:CreativeWork ;
+</data_workspace/latest/#./qualitycontrolled_data/combined/> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Quality controlled data" ;
     dc:description "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data" ;
     schema:item <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> ;
     .
-<https://github.com/arms-mbon/data_workspace> rdf:type schema:ListItem, schema:CreativeWork ;
+</data_workspace/latest/#./> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Data Workspace" ;
     dc:description "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and sequence metadata, omics processing results, and image metadata are included here" ;
     schema:item <https://github.com/arms-mbon/data_workspace> ;
     .
-<https://github.com/arms-mbon/documentation> rdf:type schema:ListItem, schema:CreativeWork ;
+</documentation/latest/#./> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Documentation" ;
     dc:description "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets" ;
     schema:item <https://github.com/arms-mbon/documentation> ;
     .
-<https://github.com/arms-mbon/darwin-core-generator> rdf:type schema:ListItem, schema:CreativeWork ;
+<> rdf:type schema:ListItem, schema:CreativeWork ;
     dc:title "Darwin Core Generator" ;
     dc:description "Scripts to turn our PEMA outputs and metadata into DcW files destined for EurOBIS" ;
     schema:item <https://github.com/arms-mbon/darwin-core-generator> ;
     .
-
-<https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
-    dc:title "Spineless and overlooked: DNA metabarcoding of autonomous reef monitoring structures reveals intra- and interspecific genetic diversity in Mediterranean invertebrates" ;
-    dc:description "Thomasdotter et al., Molecular Ecology Resources, (2023)" ;
-    schema:url <https://doi.org/10.1111/1755-0998.13836> ;
-    .
-
-<https://doi.org/10.3389/fmars.2023.1118120> rdf:type schema:CreativeWork ;
-    dc:title "European marine omics biodiversity observation network: a strategic outline for the implementation of omics approaches in ocean observation" ;
-    dc:description "Santi et al., Frontiers in Marine Science, (2023)" ;
-    schema:url <https://doi.org/10.3389/fmars.2023.1118120> ;
-    .
-
-<https://doi.org/10.1007/s10750-023-05184-9> rdf:type schema:CreativeWork ;
-    dc:title "Phylogeographic study using autonomous reef monitoring structures indicates fast range expansion of the invasive bryozoan Juxtacribrilina mutabilis" ;
-    dc:description "Martaeng et al., Hydrobiologia, (2023)" ;
-    schema:url <https://doi.org/10.1007/s10750-023-05184-9> ;
-    .
-
-<https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> rdf:type schema:CreativeWork ;
-    dc:title "Genetic methods in environmental monitoring: Early detection and monitoring of non-indigenous species based on DNA" ;
-    dc:description "Sundberg, P., et al., Report for the Swedish Agency for Marine and Water Management report, 4 (2022)" ;
-    schema:url <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> ;
-    .
-
-<https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
-    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
-    dc:description "Pavloudi, C., et al., Poster presenting the ARMS-MBON project, ARPHA Conference Abstracts (Pensoft Publishers), 4 (2021)" ;
-    schema:url <https://dx.doi.org/10.3897/aca.4.e64760> ;
-    .
-
-<https://dx.doi.org/10.3897/biss.4.58938> rdf:type schema:CreativeWork ;
-    dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format" ;
-    dc:description "Exter, K., et al. Presentation at an online conference of the Biodiversity Information Science and Standards, 4 (2020)" ;
-    schema:url <https://dx.doi.org/10.3897/biss.4.58938> ;
-    .
-
-<https://dx.doi.org/10.3389/fmars.2020.572680> rdf:type schema:CreativeWork ;
-    dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
-    dc:description "Obst, M., et al. An introductions to the ARMS-MBON project: its aims, its data, its network, its science. Frontiers in Marine Science, 7 (2020)" ;
-    schema:url <https://dx.doi.org/10.3389/fmars.2020.572680> ;
-    .
-
-<http://www.assembleplus.eu/information-system?module=ref&refid=311999> rdf:type schema:CreativeWork ;
-    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure" ;
-    dc:description "Pavloudi, C., et al. Poster presenting the ARMS-MBON project (2019)" ;
-    schema:url <http://www.assembleplus.eu/information-system?module=ref&refid=311999> ;
-    .
+# 
+# <https://doi.org/10.1038/s41467-024-52673-z6> rdf:type schema:CreativeWork ;
+#     dc:title "Seasonality of primary production explains the richness of pioneering benthic communities" ;
+#     dc:description "Cecchetto M, Dettai A, Gallut C, Obst M, et al, Nature Communications (2024)" ;
+#     schema:url <https://doi.org/10.1038/s41467-024-52673-z6> ;
+#     .
+# 
+# <https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
+#     dc:title "Spineless and overlooked: DNA metabarcoding of autonomous reef monitoring structures reveals intra- and interspecific genetic diversity in Mediterranean invertebrates" ;
+#     dc:description "Thomasdotter et al., Molecular Ecology Resources (2023)" ;
+#     schema:url <https://doi.org/10.1111/1755-0998.13836> ;
+#     .
+# 
+# <https://doi.org/10.3389/fmars.2023.1118120> rdf:type schema:CreativeWork ;
+#     dc:title "European marine omics biodiversity observation network: a strategic outline for the implementation of omics approaches in ocean observation" ;
+#     dc:description "Santi et al., Frontiers in Marine Science (2023)" ;
+#     schema:url <https://doi.org/10.3389/fmars.2023.1118120> ;
+#     .
+# 
+# <https://doi.org/10.1007/s10750-023-05184-9> rdf:type schema:CreativeWork ;
+#     dc:title "Phylogeographic study using autonomous reef monitoring structures indicates fast range expansion of the invasive bryozoan Juxtacribrilina mutabilis" ;
+#     dc:description "Martaeng et al., Hydrobiologia (2023)" ;
+#     schema:url <https://doi.org/10.1007/s10750-023-05184-9> ;
+#     .
+# 
+# <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> rdf:type schema:CreativeWork ;
+#     dc:title "Genetic methods in environmental monitoring: Early detection and monitoring of non-indigenous species based on DNA" ;
+#     dc:description "Sundberg, P., et al., Report for the Swedish Agency for Marine and Water Management report, 4 (2022)" ;
+#     schema:url <https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html> ;
+#     .
+# 
+# <https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
+#     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
+#     dc:description "Pavloudi, C., et al., Poster presenting the ARMS-MBON project, ARPHA Conference Abstracts (Pensoft Publishers), 4 (2021)" ;
+#     schema:url <https://dx.doi.org/10.3897/aca.4.e64760> ;
+#     .
+# 
+# <https://dx.doi.org/10.3897/biss.4.58938> rdf:type schema:CreativeWork ;
+#     dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format" ;
+#     dc:description "Exter, K., et al. Presentation at an online conference of the Biodiversity Information Science and Standards, 4 (2020)" ;
+#     schema:url <https://dx.doi.org/10.3897/biss.4.58938> ;
+#     .
+# 
+# <https://dx.doi.org/10.3389/fmars.2020.572680> rdf:type schema:CreativeWork ;
+#     dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
+#     dc:description "Obst, M., et al. An introductions to the ARMS-MBON project: its aims, its data, its network, its science. Frontiers in Marine Science, 7 (2020)" ;
+#     schema:url <https://dx.doi.org/10.3389/fmars.2020.572680> ;
+#     .
+# 
+# <http://www.assembleplus.eu/information-system?module=ref&refid=311999> rdf:type schema:CreativeWork ;
+#     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure" ;
+#     dc:description "Pavloudi, C., et al. Poster presenting the ARMS-MBON project (2019)" ;
+#     schema:url <http://www.assembleplus.eu/information-system?module=ref&refid=311999> ;
+#     .
+# 
