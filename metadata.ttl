@@ -76,7 +76,7 @@
         schema:name "Ontologies in Autonomous Reef Monitoring System" ;
         ];
     # 
-    # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z6>;
+    # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z>;
     # 
     # schema:hasPart <https://doi.org/10.21203/rs.3.rs-4804152/v1>;
     # 
@@ -140,10 +140,10 @@
     schema:item <https://github.com/arms-mbon/darwin-core-generator> ;
     .
 # 
-# <https://doi.org/10.1038/s41467-024-52673-z6> rdf:type schema:CreativeWork ;
+# <https://doi.org/10.1038/s41467-024-52673-z> rdf:type schema:CreativeWork ;
 #     dc:title "Seasonality of primary production explains the richness of pioneering benthic communities" ;
 #     dc:description "Cecchetto M, Dettai A, Gallut C, Obst M, et al, Nature Communications (2024)" ;
-#     schema:url <https://doi.org/10.1038/s41467-024-52673-z6> ;
+#     schema:url <https://doi.org/10.1038/s41467-024-52673-z> ;
 #     .
 # 
 # <https://doi.org/10.21203/rs.3.rs-4804152/v1> rdf:type schema:CreativeWork ;
