@@ -76,6 +76,8 @@
         schema:name "Ontologies in Autonomous Reef Monitoring System" ;
         ];
     # 
+    # schema:hasPart <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1>;
+    # 
     # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z>;
     # 
     # schema:hasPart <https://doi.org/10.21203/rs.3.rs-4804152/v1>;
@@ -139,6 +141,12 @@
     dc:description "Scripts to turn our PEMA outputs and metadata into DcW files destined for EurOBIS" ;
     schema:item <https://github.com/arms-mbon/darwin-core-generator> ;
     .
+# 
+# <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1> rdf:type schema:CreativeWork ;
+#     dc:title "ARMS-MBON 18S rRNA and COI gene metabarcoding: scanning for non-indigenous species" ;
+#     dc:description "Daraghmeh, N, protocols.io (2024)" ;
+#     schema:url <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1> ;
+#     .
 # 
 # <https://doi.org/10.1038/s41467-024-52673-z> rdf:type schema:CreativeWork ;
 #     dc:title "Seasonality of primary production explains the richness of pioneering benthic communities" ;
