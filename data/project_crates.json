@@ -4,6 +4,7 @@
     "name": "Data release 001",
     "url" : "https://github.com/arms-mbon/data_release_001",
     "crateurl" : "/data_release_001/latest/#./",
+    "lodurl": "data_release_001/latest",
     "text": "All sampling event (meta)data for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Analysis release 001",
     "url" : "https://github.com/arms-mbon/analysis_release_001",
     "crateurl" : "/analysis_release_001/latest/#./",
+    "lodurl": "analysis_release_001/latest",
     "text": "The bioinformatics in/output data from the analysis of the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)"
   },    
   {
@@ -18,6 +20,7 @@
     "name": "Code release 001",
     "url" : "https://github.com/arms-mbon/code_release_001",
     "crateurl" : "/code_release_001/latest/#./",
+    "lodurl": "code_release_001/latest",
     "text": "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)"
   },   
   {
@@ -25,6 +28,7 @@
     "name": "Quality controlled data",
     "url" : "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
     "crateurl": "/data_workspace/latest/#./qualitycontrolled_data/combined/",
+    "lodurl": "data_workspace/latest",
     "text": "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data"
   },
   {
@@ -32,6 +36,7 @@
     "name": "Data Workspace",
     "url" : "https://github.com/arms-mbon/data_workspace",
     "crateurl": "/data_workspace/latest/#./",
+    "lodurl": "data_workspace/latest",
     "text": "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and sequence metadata, omics processing results, and image metadata are included here"
   },
   {
@@ -39,6 +44,7 @@
     "name": "Documentation",
     "url" : "https://github.com/arms-mbon/documentation",
     "crateurl" : "/documentation/latest/#./",
+    "lodurl": "documentation/latest",
     "text": "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets"
   },
   {
