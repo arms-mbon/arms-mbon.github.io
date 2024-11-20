@@ -51,6 +51,7 @@
     "icon": "fa fa-archive",
     "name": "Darwin Core Generator",
     "url" : "https://github.com/arms-mbon/darwin-core-generator",
+    "lodurl": "darwin-core-generator",
     "text": "Scripts to turn our PEMA outputs and metadata into DcW files destined for EurOBIS"
   }
 ]
