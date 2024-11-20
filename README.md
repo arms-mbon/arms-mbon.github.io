@@ -15,5 +15,5 @@ This data landing page gives you access to these data and more. Use the main men
 For any questions, you can contact the Team.   
   
   
-*A short word about our data packages.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically annotated; every GH repository is a single RO-Crate. This Research Object approach is fundamental to making our data FAIR. Users can browse ARMS-MBON data [below](https://data.arms-mbon.org/#crates) by selecting the direct GH links (the GH icon) or the RO-Crate viewer links (the package icon). 
+*A short word about our data packages.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically annotated; every GH repository is a single RO-Crate. This Research Object approach is fundamental to making our data FAIR. Users can browse ARMS-MBON data [below](https://data.arms-mbon.org/#crates) by selecting the direct GH links (the GH icon) or the RO-Crate viewer links (the package icon).
 
