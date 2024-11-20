@@ -1,5 +1,5 @@
 
-**ARMS-MBON** is a **European Marine Biodiversity Observation Network (MBON)** of **Autonomous Reef Monitoring Structures (ARMS)**.
+**ARMS-MBON** is a **European Marine Biodiversity Observation Network (MBON)** of **Autonomous Reef Monitoring Structures (ARMS)**. 
 
 In ARMS-MBON we use ARMS units to sample the biodiversity of European coastal hard-bottom environments. Our ARMS units are placed for months at a time in the vicinity of marine stations, ports, marinas, and long-term ecological research sites distributed over Europe and the polar regions. They are populated by the surrounding hard-bottom communities, and once the units are retrieved, the organisms that colonised them are sampled and analysed. The aim of ARMS-MBON is to assess the status of, and changes in, the hard-bottom communities of these near-coast environments, using DNA (metabarcoding), image, and visual inspection methods. 
 
@@ -15,5 +15,5 @@ This data landing page gives you access to these data and more. Use the main men
 For any questions, you can contact the Team.   
   
   
-*A short word about our data packages.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically annotated; every GH repository is a single RO-Crate. This Research Object approach is fundamental to making our data FAIR. Users can browse ARMS-MBON data [below](https://data.arms-mbon.org/#crates) by selecting the direct GH links (the GH icon) or the RO-Crate viewer links (the package icon). 
+*A short word about our data packages.* We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically annotated; every GH repository is a single RO-Crate. This Research Object approach is fundamental to making our data FAIR. Users can browse ARMS-MBON data [below](https://data.arms-mbon.org/#crates) by selecting the direct GH links (the GH icon) or the RO-Crate viewer links (the package icon).
 

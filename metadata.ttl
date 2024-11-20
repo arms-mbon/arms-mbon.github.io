@@ -3,6 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix schema: <http://schema.org/> .
 
 <https://orcid.org/0000-0003-0264-9631>
@@ -42,39 +43,23 @@
     .
     
 
-<https://data.arms-mbon.org/> rdf:type foaf:Project ;
+
+<https://data.arms-mbon.org/> rdf:type foaf:Project dcat:Catalog ;
     dc:title "Autonomous Reef Monitoring System" ;
     foaf:name "ARMS-MBON" ;
     dc:description "ARMS-MBON: The European ARMS Marine Biodiversity Observation Network" ;
-    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg>;
-    schema:mainEntityOfPage <https://data.arms-mbon.org/>;
-    schema:hasPart [
-        rdf:type schema:ItemList;
-        schema:partOf <https://data.arms-mbon.org/>;
-        schema:name "Profiles in Autonomous Reef Monitoring System" ;
-        ],
-    [
-        rdf:type schema:ItemList;
-        schema:partOf <https://data.arms-mbon.org/>;
-        schema:name "Crates in Autonomous Reef Monitoring System" ;
-        schema:itemListElement <https://data.arms-mbon.org/data_release_001/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/analysis_release_001/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/code_release_001/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/data_workspace/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/data_workspace/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/documentation/latest>;
-        schema:itemListElement <https://data.arms-mbon.org/>;
-        ],
-    [
-        rdf:type schema:ItemList;
-        schema:partOf <https://data.arms-mbon.org/>;
-        schema:name "Vocabularies in Autonomous Reef Monitoring System" ;
-        ],
-    [
-        rdf:type schema:ItemList;
-        schema:partOf <https://data.arms-mbon.org/>;
-        schema:name "Ontologies in Autonomous Reef Monitoring System" ;
-        ];
+    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> ;
+    schema:mainEntityOfPage <https://data.arms-mbon.org/> ;
+    foas:homepage <https://data.arms-mbon.org/> ;
+    dcat:dataset 
+     
+    <https://data.arms-mbon.org/data_release_001/latest>,
+    <https://data.arms-mbon.org/analysis_release_001/latest>,
+    <https://data.arms-mbon.org/code_release_001/latest>,
+    <https://data.arms-mbon.org/data_workspace/latest>,
+    <https://data.arms-mbon.org/data_workspace/latest>,
+    <https://data.arms-mbon.org/documentation/latest>,
+    <https://data.arms-mbon.org/darwin-core-generator>
     # 
     # schema:hasPart <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1>;
     # 
@@ -100,43 +85,41 @@
     # 
     # schema:hasPart <http://www.assembleplus.eu/information-system?module=ref&refid=311999>;
     # 
-    .
-
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
     .
 
 
-<data_release_001/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<data_release_001/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Data release 001" ;
     dc:description "All sampling event (meta)data for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/data_release_001> ;
     .
-<analysis_release_001/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<analysis_release_001/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Analysis release 001" ;
     dc:description "The bioinformatics in/output data from the analysis of the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/analysis_release_001> ;
     .
-<code_release_001/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<code_release_001/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Code release 001" ;
     dc:description "The codes used to analyse the species outputs from the bioinformatics done for the first ARMS-MBON dataset submitted to EurOBIS (2018-2020)" ;
     schema:item <https://github.com/arms-mbon/code_release_001> ;
     .
-<data_workspace/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<data_workspace/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Quality controlled data" ;
     dc:description "The quality-controlled ARMS-MBON metadata for all events to the current date, being the first port-of-call for the general user of ARMS-MBON data" ;
     schema:item <https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined> ;
     .
-<data_workspace/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<data_workspace/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Data Workspace" ;
     dc:description "Repository where (meta)data are harvested and then quality controlled, semantically annotated, and combined. Sampling and sequence metadata, omics processing results, and image metadata are included here" ;
     schema:item <https://github.com/arms-mbon/data_workspace> ;
     .
-<documentation/latest> rdf:type schema:ListItem, schema:CreativeWork ;
+<documentation/latest> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Documentation" ;
     dc:description "ARMS-MBON documentation and templates for labels, observations, and image spreadsheets" ;
     schema:item <https://github.com/arms-mbon/documentation> ;
     .
-<> rdf:type schema:ListItem, schema:CreativeWork ;
+<darwin-core-generator> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Darwin Core Generator" ;
     dc:description "Scripts to turn our PEMA outputs and metadata into DcW files destined for EurOBIS" ;
     schema:item <https://github.com/arms-mbon/darwin-core-generator> ;
