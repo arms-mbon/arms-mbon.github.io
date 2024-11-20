@@ -44,13 +44,13 @@
     
 
 
-<https://data.arms-mbon.org/> rdf:type foaf:Project dcat:Catalog ;
+<https://data.arms-mbon.org/> rdf:type foaf:Project, dcat:Catalog ;
     dc:title "Autonomous Reef Monitoring System" ;
     foaf:name "ARMS-MBON" ;
     dc:description "ARMS-MBON: The European ARMS Marine Biodiversity Observation Network" ;
     foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> ;
     schema:mainEntityOfPage <https://data.arms-mbon.org/> ;
-    foas:homepage <https://data.arms-mbon.org/> ;
+    foaf:homepage <https://data.arms-mbon.org/> ;
     dcat:dataset 
      
     <https://data.arms-mbon.org/data_release_001/latest>,
@@ -60,6 +60,9 @@
     <https://data.arms-mbon.org/data_workspace/latest>,
     <https://data.arms-mbon.org/documentation/latest>,
     <https://data.arms-mbon.org/darwin-core-generator>
+    ;
+
+
     # 
     # schema:hasPart <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1>;
     # 
