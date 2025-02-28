@@ -150,7 +150,7 @@
 # 
 # <https://doi.org/10.1007/s10530-024-03503-2> rdf:type schema:CreativeWork ;
 #     dc:title "Using the long-term genetic monitoring network ARMS-MBON to detect marine non-indigenous species along the European coasts" ;
-#     dc:description "agnier, J., Daraghmeh, N. & Obst, M. (2025)" ;
+#     dc:description "Pagnier, J., Daraghmeh, N. & Obst, M. (2025)" ;
 #     schema:url <https://doi.org/10.1007/s10530-024-03503-2> ;
 #     .
 # 
