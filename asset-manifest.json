@@ -1,13 +1,18 @@
 {
   "files": {
+    "main.js": "./main.bundle.js",
     "main.css": "./static/css/main.e732fabe.css",
-    "main.js": "./static/js/main.a472ea3f.js",
+    "navigation.js": "./navigation.bundle.js",
+    "js/jquery.1.11.1.js": "./js/jquery.1.11.1.js",
+    "js/bootstrap.js": "./js/bootstrap.js",
     "index.html": "./index.html",
+    "navigation.html": "./navigation.html",
+    "main.bundle.js.map": "./main.bundle.js.map",
     "main.e732fabe.css.map": "./static/css/main.e732fabe.css.map",
-    "main.a472ea3f.js.map": "./static/js/main.a472ea3f.js.map"
+    "navigation.bundle.js.map": "./navigation.bundle.js.map"
   },
   "entrypoints": [
-    "static/css/main.e732fabe.css",
-    "static/js/main.a472ea3f.js"
+    "main.bundle.js",
+    "static/css/main.e732fabe.css"
   ]
 }

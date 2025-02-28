@@ -60,17 +60,19 @@
     <https://data.arms-mbon.org/data_workspace/latest>,
     <https://data.arms-mbon.org/documentation/latest>,
     <https://data.arms-mbon.org/darwin-core-generator>
-    ;
+    .
 
 
+    # 
+    # schema:hasPart <https://doi.org/10.3897/arphapreprints.e149221>;
     # 
     # schema:hasPart <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1>;
     # 
     # schema:hasPart <https://doi.org/10.1038/s41467-024-52673-z>;
     # 
-    # schema:hasPart <https://doi.org/10.21203/rs.3.rs-4804152/v1>;
+    # schema:hasPart <https://doi.org/10.1007/s10530-024-03503-2>;
     # 
-    # schema:hasPart <https://doi.org/10.1101/2024.09.26.614897>;
+    # schema:hasPart <https://doi.org/10.1111/1755-0998.14073>;
     # 
     # schema:hasPart <https://doi.org/10.1111/1755-0998.13836>;
     # 
@@ -128,6 +130,12 @@
     schema:item <https://github.com/arms-mbon/darwin-core-generator> ;
     .
 # 
+# <https://doi.org/10.3897/arphapreprints.e149221> rdf:type schema:CreativeWork ;
+#     dc:title "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2020-2021. In review." ;
+#     dc:description "Pagnier J, Allcock L, Cancio I et al (2025)" ;
+#     schema:url <https://doi.org/10.3897/arphapreprints.e149221> ;
+#     .
+# 
 # <https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1> rdf:type schema:CreativeWork ;
 #     dc:title "ARMS-MBON 18S rRNA and COI gene metabarcoding: scanning for non-indigenous species" ;
 #     dc:description "Daraghmeh, N, protocols.io (2024)" ;
@@ -140,16 +148,16 @@
 #     schema:url <https://doi.org/10.1038/s41467-024-52673-z> ;
 #     .
 # 
-# <https://doi.org/10.21203/rs.3.rs-4804152/v1> rdf:type schema:CreativeWork ;
-#     dc:title "Assessing the effectiveness of genetic observatory networks in detecting and monitoring marine non-indigenous species" ;
-#     dc:description "Pagnier J, Daraghmeh N, Obst M, Biological Invasions (In review) (2024)" ;
-#     schema:url <https://doi.org/10.21203/rs.3.rs-4804152/v1> ;
+# <https://doi.org/10.1007/s10530-024-03503-2> rdf:type schema:CreativeWork ;
+#     dc:title "Using the long-term genetic monitoring network ARMS-MBON to detect marine non-indigenous species along the European coasts" ;
+#     dc:description "agnier, J., Daraghmeh, N. & Obst, M. (2025)" ;
+#     schema:url <https://doi.org/10.1007/s10530-024-03503-2> ;
 #     .
 # 
-# <https://doi.org/10.1101/2024.09.26.614897> rdf:type schema:CreativeWork ;
-#     dc:title "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2018-2020" ;
+# <https://doi.org/10.1111/1755-0998.14073> rdf:type schema:CreativeWork ;
+#     dc:title "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2018-2020. In review" ;
 #     dc:description "Daraghmeh N, Exter K, Pagnier J, et al, Molecular Ecology Resources (In review) (2024) " ;
-#     schema:url <https://doi.org/10.1101/2024.09.26.614897> ;
+#     schema:url <https://doi.org/10.1111/1755-0998.14073> ;
 #     .
 # 
 # <https://doi.org/10.1111/1755-0998.13836> rdf:type schema:CreativeWork ;
