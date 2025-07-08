@@ -144,13 +144,13 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 .section-title h2 {
   position: relative;
   margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 .section-title h2::after {
   position: absolute;
@@ -591,6 +591,11 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
+#results {
+  margin-bottom: 50px;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
