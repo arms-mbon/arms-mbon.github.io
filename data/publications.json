@@ -6,7 +6,7 @@
         "link": "https://doi.org/10.1016/j.marpolbul.2025.118545"
     },
     {
-        "text": "Pagnier J, Allcock L, Cancio I et al, Biodiversity Data Journal (2025)", 
+        "text": "Pagnier J, Allcock L, Cancio I, et al, Biodiversity Data Journal (2025)", 
         "title": "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2020-2021. Accepted.", 
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.3897/arphapreprints.e149221"
@@ -48,38 +48,38 @@
         "link": "https://doi.org/10.3389/fmars.2023.1118120"
     },
     {
-        "text": "Martaeng et al, Hydrobiologia (2023)", 
+        "text": "Martaeng R, et al, Hydrobiologia (2023)", 
         "title": "Phylogeographic study using autonomous reef monitoring structures indicates fast range expansion of the invasive bryozoan Juxtacribrilina mutabilis", 
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.1007/s10750-023-05184-9"
     },
     {
         "title": "Genetic methods in environmental monitoring: Early detection and monitoring of non-indigenous species based on DNA",
-        "text": "Sundberg, P., et al., Report for the Swedish Agency for Marine and Water Management report, 4 (2022)",
+        "text": "Sundberg P, et al, Report for the Swedish Agency for Marine and Water Management report, 4 (2022)",
         "img": "/img/publications/4.jpg",
         "link": "https://www.havochvatten.se/data-kartor-och-rapporter/rapporter-och-andra-publikationer/publikationer/2022-08-16-genomik-baserade-metoder-i-miljoovervakningen.html"
     },
         {
         "title": "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea",
-        "text": "Pavloudi, C., et al., Poster presenting the ARMS-MBON project, ARPHA Conference Abstracts (Pensoft Publishers), 4 (2021)",
+        "text": "Pavloudi C, et al, Poster presenting the ARMS-MBON project, ARPHA Conference Abstracts (Pensoft Publishers), 4 (2021)",
         "img": "/img/publications/4.jpg",
         "link": "https://dx.doi.org/10.3897/aca.4.e64760"
     },
     {
         "title": "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format",
-        "text": "Exter, K., et al. Presentation at an online conference of the Biodiversity Information Science and Standards, 4 (2020)",
+        "text": "Exter K, et al, Presentation at an online conference of the Biodiversity Information Science and Standards, 4 (2020)",
         "img": "/img/publications/1.jpg",
         "link": "https://dx.doi.org/10.3897/biss.4.58938"
     },
     {
         "title": "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)",
-        "text": "Obst, M., et al. An introductions to the ARMS-MBON project: its aims, its data, its network, its science. Frontiers in Marine Science, 7 (2020)",
+        "text": "Obst M, et al, An introductions to the ARMS-MBON project: its aims, its data, its network, its science. Frontiers in Marine Science, 7 (2020)",
         "img": "/img/publications/2.jpeg",
         "link": "https://dx.doi.org/10.3389/fmars.2020.572680"
     },
     {
         "title": "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure",
-        "text": "Pavloudi, C., et al. Poster presenting the ARMS-MBON project (2019)",
+        "text": "Pavloudi C, et al, Poster presenting the ARMS-MBON project (2019)",
         "img": "/img/publications/3.jpg",
         "link": "http://www.assembleplus.eu/information-system?module=ref&refid=311999"
     }
