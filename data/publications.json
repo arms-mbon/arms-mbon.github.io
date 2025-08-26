@@ -1,12 +1,30 @@
 [
     {
-        "text": "Pagnier J, Allcock L, Cancio I et al (2025)", 
-        "title": "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2020-2021. In review.", 
+        "text": "Piazza A, Mikac B, Colangelo MA, Costantini F, Marine Pollution Bulletin (2025)", 
+        "title": "ARMS in ports: monitoring non-indigenous species through Autonomous Reef Monitoring Structures", 
+        "img": "/img/publications/4.jpg",
+        "link": "https://doi.org/10.1016/j.marpolbul.2025.118545"
+    },
+    {
+        "text": "Pagnier J, Allcock L, Cancio I et al, Biodiversity Data Journal (2025)", 
+        "title": "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2020-2021. Accepted.", 
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.3897/arphapreprints.e149221"
     },
     {
-        "text": "Daraghmeh, N, protocols.io (2024)", 
+        "text": "Pagnier J, Daraghmeh N, Obst M, Biological Invasions (2025)", 
+        "title": "Using the long-term genetic monitoring network ARMS-MBON to detect marine non-indigenous species along the European coasts", 
+        "img": "/img/publications/4.jpg",
+        "link": "https://doi.org/10.1007/s10530-024-03503-2"
+    },
+    {
+        "text": "Daraghmeh N, Exter K, Pagnier J, et al, Molecular Ecology Resources (2025)", 
+        "title": "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2018-2020", 
+        "img": "/img/publications/4.jpg",
+        "link": "https://doi.org/10.1111/1755-0998.14073"
+    },  
+    {
+        "text": "Daraghmeh N, protocols.io (2024)", 
         "title": "ARMS-MBON 18S rRNA and COI gene metabarcoding: scanning for non-indigenous species", 
         "img": "/img/publications/4.jpg",
         "link": "https://dx.doi.org/10.17504/protocols.io.n92ldmmmnl5b/v1"
@@ -18,31 +36,19 @@
         "link": "https://doi.org/10.1038/s41467-024-52673-z"
     },
     {
-        "text": "Pagnier, J., Daraghmeh, N. & Obst, M. (2025)", 
-        "title": "Using the long-term genetic monitoring network ARMS-MBON to detect marine non-indigenous species along the European coasts", 
-        "img": "/img/publications/4.jpg",
-        "link": "https://doi.org/10.1007/s10530-024-03503-2"
-    },
-    {
-        "text": "Daraghmeh N, Exter K, Pagnier J, et al, Molecular Ecology Resources (In review) (2024) ", 
-        "title": "A long-term ecological research data set from the marine genetic monitoring programme ARMS-MBON 2018-2020. In review", 
-        "img": "/img/publications/4.jpg",
-        "link": "https://doi.org/10.1111/1755-0998.14073"
-    },
-    {
-        "text": "Thomasdotter et al., Molecular Ecology Resources (2023)", 
+        "text": "Thomasdotter A, et al, Molecular Ecology Resources (2023)", 
         "title": "Spineless and overlooked: DNA metabarcoding of autonomous reef monitoring structures reveals intra- and interspecific genetic diversity in Mediterranean invertebrates", 
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.1111/1755-0998.13836"
     },
     {
-        "text": "Santi et al., Frontiers in Marine Science (2023)",
+        "text": "Santi I, et al, Frontiers in Marine Science (2023)",
         "title": "European marine omics biodiversity observation network: a strategic outline for the implementation of omics approaches in ocean observation",
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.3389/fmars.2023.1118120"
     },
     {
-        "text": "Martaeng et al., Hydrobiologia (2023)", 
+        "text": "Martaeng et al, Hydrobiologia (2023)", 
         "title": "Phylogeographic study using autonomous reef monitoring structures indicates fast range expansion of the invasive bryozoan Juxtacribrilina mutabilis", 
         "img": "/img/publications/4.jpg",
         "link": "https://doi.org/10.1007/s10750-023-05184-9"
