@@ -75,6 +75,8 @@
     .
 
     # 
+    # schema:hasPart <https://doi.org/10.1111/2041-210x.70194>;
+    # 
     # schema:hasPart <https://doi.org/10.1016/j.marpolbul.2025.118545>;
     # 
     # schema:hasPart <https://doi.org/10.3897/BDJ.13.e148981>;
@@ -196,6 +198,12 @@
         a dcat:Distribution ;
         dcat:accessURL <https://data.arms-mbon.org/darwin-core-generator> ;
     ].
+# 
+# <https://doi.org/10.1111/2041-210x.70194> rdf:type schema:CreativeWork ;
+#     dct:title "A review of autonomous reef monitoring structures (ARMS) for monitoring hard-bottom benthic biodiversity" ;
+#     dct:description "Jessop A, Steyaert M, Daraghmeh N, Pagnier J, Clark MS, Peck LS, Fraser KPP, Methods in Ecology and Evolution (2025)" ;
+#     schema:url <https://doi.org/10.1111/2041-210x.70194> 
+#     .
 # 
 # <https://doi.org/10.1016/j.marpolbul.2025.118545> rdf:type schema:CreativeWork ;
 #     dct:title "ARMS in ports: monitoring non-indigenous species through Autonomous Reef Monitoring Structures" ;
