@@ -75,6 +75,8 @@
     .
 
     # 
+    # schema:hasPart <https://doi.org/10.21203/rs.3.rs-8702791/v1>;
+    # 
     # schema:hasPart <https://doi.org/10.1111/2041-210x.70194>;
     # 
     # schema:hasPart <https://doi.org/10.1016/j.marpolbul.2025.118545>;
@@ -198,6 +200,12 @@
         a dcat:Distribution ;
         dcat:accessURL <https://data.arms-mbon.org/darwin-core-generator> ;
     ].
+# 
+# <https://doi.org/10.21203/rs.3.rs-8702791/v1> rdf:type schema:CreativeWork ;
+#     dct:title "The role of genetic observatory networks in the detection and forecasting of marine non-indigenous species" ;
+#     dct:description "Pagnier J, Andermann T, Andersson M, Obst M, ResearchSquare (2026)" ;
+#     schema:url <https://doi.org/10.21203/rs.3.rs-8702791/v1> 
+#     .
 # 
 # <https://doi.org/10.1111/2041-210x.70194> rdf:type schema:CreativeWork ;
 #     dct:title "A review of autonomous reef monitoring structures (ARMS) for monitoring hard-bottom benthic biodiversity" ;
